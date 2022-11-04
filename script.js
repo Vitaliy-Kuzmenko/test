@@ -1,4 +1,4 @@
-const imgSlide = document.querySelectorAll(".testImg"); //получил массив изображений
+const imgSlide = document.querySelectorAll(".SlideImg"); //получил массив изображений
 let btnPlus = document.getElementById("btn_right"); // подключил кнопку вперёд
 let btnMinus = document.getElementById("btn_left"); // подключил кнопку назад
 let arrLengthImg = imgSlide.length; // узнали длину массива и изображениями
@@ -15,7 +15,7 @@ const hideImg = ()=> {
 const viewImg = () => {
   // функция устанавливающая видимость текущего изображения
 
-  let curentImg = imgSlide[startImg]; // переменная с текущим номером изображения
+  let curentImg =imgSlide[startImg]; // переменная с текущим номером изображения
   console.log(startImg);
 
   imgSlide.forEach((elem, i) => {

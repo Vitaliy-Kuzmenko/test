@@ -6,13 +6,16 @@ body .conteiner {
 
 
 
-.hapka {
-    background-color: #00fab7;
+.header {
+    background-color: #17618e;
+    height: 200px;
 }
 
 .left_menu {
     float: left;
     width: 210px;
+    height: 400px;
+    margin: 10px;
     background-color: #ff00ff;
     font-size: 12pt;
     color: #ffffff;
@@ -25,22 +28,37 @@ body .conteiner {
     height: 600px;
     background-color: #0089ff;
 }
-
-.testImg{
-    display: block;
-    width: 50px;
+.navConteiner {
+    display: flex;
+    flex-direction: row;
+}
+.nav {
+    width: 95%;
+    margin: 0 auto;
     height: 50px;
-    border-radius: 30%;
-    margin: 10px;
-    background-color: #ff00ff;
-
+    background-color: #17618e;
+    
 }
 
+.navR {
+    width: 5%;
+    margin: 0 auto;
+    height: 50px;
+}
+
+.navL {
+    width: 5%;
+    margin: 0 auto;
+    height: 50px;
+}
+
+/*слайдер начало*/
 .slide_block{
     display: flex;
     flex-direction: row;
-    margin: 0 auto;
-   
+    position: relative;
+    align-items: center;
+    margin: 0 auto;  
     width: 500px;
     height: 500px;
     background-color: #0bd879;
@@ -50,6 +68,40 @@ body .conteiner {
     width: 500px;
     height: 500px;
 }
+
+.SlideImg{
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: #ff00ff;
+
+}
+
+.cont_btn{
+    display: flex;
+    width: 100%;
+    justify-content: space-between ;
+    position: absolute;
+    z-index: 1;
+}
+#btn_left{
+    background-image:  url("/img/sld_btn_l.png") ;
+    background-size: 100%;
+    width: 50px;
+    height: 50px;
+}
+
+
+#btn_right{
+    background-image:  url("/img/sld_btn_r.png") ;
+    background-size: 100%;
+    width: 50px;
+    height: 50px;
+}
+
+
+
+/*слайдер конец*/
 .right_menu {
     float: left;
     width: 20%;

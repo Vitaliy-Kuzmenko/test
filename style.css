@@ -85,7 +85,7 @@ body .conteiner {
     z-index: 1;
 }
 #btn_left{
-    background-image:  url("/img/sld_btn_l.png") ;
+    background-image:  url("./img/sld_btn_l.png") ;
     background-size: 100%;
     width: 50px;
     height: 50px;
@@ -93,13 +93,11 @@ body .conteiner {
 
 
 #btn_right{
-    background-image:  url("/img/sld_btn_r.png") ;
+    background-image:  url("./img/sld_btn_r.png") ;
     background-size: 100%;
     width: 50px;
     height: 50px;
 }
-
-
 
 /*слайдер конец*/
 .right_menu {

@@ -1,14 +1,19 @@
 body .conteiner {
     width: 100%;
-    background-color: #3e3e3e;
+    background-color: #221d1d;
 
 }
 
 
 
 .header {
-    background-color: #17618e;
+    width: 100%;
     height: 200px;
+}
+.header img{
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
 }
 
 .left_menu {
@@ -33,11 +38,15 @@ body .conteiner {
     flex-direction: row;
 }
 .nav {
+    display: flex;
     width: 95%;
     margin: 0 auto;
     height: 50px;
-    background-color: #17618e;
-    
+    background-color: #181818;
+    color: #ffffff;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
 }
 
 .navR {
